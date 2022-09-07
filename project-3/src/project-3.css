@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  border-radius: 10px 10px 0 0;
+  padding: 25px 35px;
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background: #e5e5e5;
+}
+
+.experiences {
+  background-color: #fff;
+}
+
+.app {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.pictures-section {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.group-style-1 {
+  width: 75px;
+}
+
+.group-style-2 {
+  width: 75px;
+  padding-top: 70px;
+}
+
+.group-style-3 {
+  width: 75px;
+}
+
+.group-style-4 {
+  width: 75px;
+  padding-top: 25px;
+}
+
+.advert-layout {
+  padding: 30px 0 50px 35px;
+  font-family: "Poppins";
+}
+
+.advert-title {
+  color: #000;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 110%;
+  padding-bottom: 15px;
+  width: 450px;
+}
+
+.advert-p {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 110%;
+  width: 320px;
+}
