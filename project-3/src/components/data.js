@@ -5,6 +5,8 @@ import Maid from "../images/wedding.png";
 
 const data = [
   {
+    id: 1,
+    openSpots: 0,
     img: Athlete,
     star: Star,
     rating: 5.0,
@@ -14,6 +16,8 @@ const data = [
     price: 136,
   },
   {
+    id: 2,
+    openSpots: 0,
     img: Maid,
     star: Star,
     rating: 5.0,
@@ -23,6 +27,8 @@ const data = [
     price: 125,
   },
   {
+    id: 3,
+    openSpots: 0,
     img: Hiking,
     star: Star,
     rating: 4.8,
