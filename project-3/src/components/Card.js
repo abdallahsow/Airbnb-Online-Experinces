@@ -1,19 +1,23 @@
 export default function Card(props) {
-  const { image, icon, rating, reviewCount, country, title, price } = props;
-  
+  let badgeText
+      if (props.openSpots === 0) {
+        badgeText = "SOLD OUT"
+      } else if (props.platform === "Online") {
+        badgeText = "ONLINE"
+      }
   return (
     <section className="cards">
-      <p className="availability">SOLD OUT</p>
-      <img className="cards--pic" src={image} alt="Olympic Swimmer" />
+      {badgeText && <p className="availability">{badgeText}</p>}
+      <img className="cards--pic" src={props.img} alt="Olympic Swimmer" />
       <div>
-        <img className="cards--star" src={icon} alt="" />
+        <img className="cards--star" src={props.star} alt="" />
         <p className="cards--text">
-          {rating} <span className="text--location">({reviewCount}) • {country}</span>
+          {props.rating} <span className="text--location">({props.reviews}) • {props.location}</span>
         </p>
       </div>
-      <p className="cards--text">{title}</p>
+      <p className="cards--text">{props.title}</p>
       <p className="cards--price">
-        <strong>From ${price}</strong> / person
+        <strong>From ${props.price}</strong> / person
       </p>
     </section>
   );

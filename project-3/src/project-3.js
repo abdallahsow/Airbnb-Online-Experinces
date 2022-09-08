@@ -12,17 +12,10 @@ const App = () => (
       <Pictures />
       <Advertisement />
       <div className="cards-data">
-        {data.map(({ img, star, rating, reviews, location, title, price, id, openSpots }) => (
+        {data.map(item => (
           <Card
-            openSpots={openSpots}
-            key={id}
-            image={img}
-            icon={star}
-            rating={rating}
-            reviewCount={reviews}
-            country={location}
-            title={title}
-            price={price}
+            key={item.id}
+            {... item}
           />
         ))}
       </div>
