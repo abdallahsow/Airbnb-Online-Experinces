@@ -71,6 +71,7 @@ body {
 }
 
 .cards {
+  position: relative;
   padding-left: 35px;
   padding-bottom: 30px;
   display: flex;
@@ -115,4 +116,17 @@ body {
 .cards-data {
   display: flex;
   gap: 20px;
+}
+
+.availability {
+  position: absolute;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 110%;
+  color: #222;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-left: 5px;
+  padding: 5px 10px;
 }
