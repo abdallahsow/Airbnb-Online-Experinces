@@ -1,6 +1,8 @@
-import data from "./components/data";
-import { Navbar, Pictures, Advertisement } from "./components/HeroSection";
+import Navbar from "./components/Navbar";
+import Pictures from "./components/Pictures";
+import Advertisement from "./components/Advertisement";
 import Card from "./components/Card";
+import data from "./components/data";
 import "./App.css";
 
 const App = () => (
