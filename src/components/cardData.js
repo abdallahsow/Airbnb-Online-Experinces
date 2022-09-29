@@ -3,7 +3,7 @@ import Star from "../images/star-icon.png";
 import Hiking from "../images/mountain-bike.png";
 import Maid from "../images/wedding.png";
 
-const data = [
+const cardData = [
   {
     id: 1,
     openSpots: 0,
@@ -42,4 +42,4 @@ const data = [
   }
 ];
 
-export default data;
+export default cardData;

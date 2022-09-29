@@ -31,17 +31,13 @@ body {
   justify-content: center;
 }
 
-.group-style-1 {
+.group-style {
   width: 75px;
 }
 
 .group-style-2 {
   width: 75px;
   padding-top: 70px;
-}
-
-.group-style-3 {
-  width: 75px;
 }
 
 .group-style-4 {

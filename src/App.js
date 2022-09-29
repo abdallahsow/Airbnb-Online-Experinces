@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 import Pictures from "./components/Pictures";
 import Advertisement from "./components/Advertisement";
 import Card from "./components/Card";
-import data from "./components/data";
+import cardData from "./components/cardData";
 import "./App.css";
 
 const App = () => (
@@ -12,7 +12,7 @@ const App = () => (
       <Pictures />
       <Advertisement />
       <div className="cards-data">
-        {data.map(item => (
+        {cardData.map(item => (
           <Card
             key={item.id}
             {... item}
