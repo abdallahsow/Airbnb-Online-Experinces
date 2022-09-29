@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 import Pictures from "./components/Pictures";
 import Advertisement from "./components/Advertisement";
 import Card from "./components/Card";
-import cardData from "./components/cardData";
+import cardData from "./data/cardData";
 import "./App.css";
 
 const App = () => (

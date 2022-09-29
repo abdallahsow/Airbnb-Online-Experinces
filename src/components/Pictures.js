@@ -1,5 +1,5 @@
 import SinglePic from "./SinglePic";
-import picturesData from "./picturesData";
+import picturesData from "../data/picturesData";
 import Cooker from "../images/cooker.png";
 
 export default function Pictures() {
